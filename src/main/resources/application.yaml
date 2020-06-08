@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+#    url: jdbc:oracle:thin:@192.168.1.15:1521:xe
+    url: jdbc:oracle:thin:@192.168.26.32:1521:orcl
+    username: kws
+    password: oracle
+  redis:
+    host: 192.168.236.30
+#    host: 192.168.1.15
+#  7-788850745 100590
+#  4-423353191 100591
+server:
+  port: 29090
+#  address: 0.0.0.0
+
+logging:
+  level:
+    root:  info
